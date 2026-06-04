@@ -1,0 +1,16 @@
+Devops daily flow in Github
+cd Project - folder
+gitpull - orgin main ( make changes)
+git status
+git add .
+git commite -m 
+git push orgin main
+commands and meanings
+git clone - download repo from GitHub
+git pull - get latest updates
+git add . - add changed files
+git commit -m - save changes locally
+git push - upload changes to GitHub
+git status - check changes
+copied from test1
+copied from test2
