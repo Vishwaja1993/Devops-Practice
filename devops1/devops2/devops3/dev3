@@ -1,0 +1,9 @@
+commands and meanings
+git clone - download repo from GitHub
+git pull - get latest updates
+git add . - add changed files
+git commit -m - save changes locally
+git push - upload changes to GitHub
+git status - check changes
+copied from test1
+copied from test2
