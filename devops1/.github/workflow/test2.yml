@@ -1,0 +1,16 @@
+name: create pull request
+on:
+  pull_request_target:
+   types: [close, reopened]
+   branches:
+      - main
+jobs:
+  Pull_request_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a Narendra name
+        run: echo "Narendra"
+      - name: Print a Vishwaja name
+        run: echo "Vishwaja"
+      - name: Print a Mounu name
+        run: echo "Mounu"
