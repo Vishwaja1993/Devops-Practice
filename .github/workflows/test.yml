@@ -1,0 +1,14 @@
+name: ecotest
+on:
+  push:
+    branches:
+      - main
+      - mounu-test
+jobs:
+  printind_a_name:
+    runs-on: ubuntu-Latest
+    steps:
+      - name: Print a name
+        run: echo "Hello, World!"
+
+
