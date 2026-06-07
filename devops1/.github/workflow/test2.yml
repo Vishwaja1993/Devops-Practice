@@ -1,7 +1,7 @@
 name: create pull request
 on:
   pull_request_target:
-   types: [close, reopened]
+   types: [closed, reopened]
    branches:
       - main
 jobs:
@@ -16,3 +16,5 @@ jobs:
         run: echo "Mounu"
       - name: Print a Suman name
         run: echo "Suman"
+      - name: Print a Minni name
+        run: echo "Minni"
