@@ -4,6 +4,7 @@ on:
    types: [opened, closed, reopened]
    branches:
       - main
+      - feature/test-1
 jobs:
   Pull_request_test:
     runs-on: ubuntu-latest
