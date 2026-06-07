@@ -14,3 +14,5 @@ jobs:
         run: echo "Vishwaja"
       - name: Print a Mounu name
         run: echo "Mounu"
+      - name: Print a Suman name
+        run: echo "Suman"
