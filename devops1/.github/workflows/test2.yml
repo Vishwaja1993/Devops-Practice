@@ -19,3 +19,5 @@ jobs:
         run: echo "Suman"
       - name: Print a Minni name
         run: echo "Minni"
+      - name: Print a Suman name
+        run: echo "Suman"
