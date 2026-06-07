@@ -1,9 +1,10 @@
 name: create pull request
 on:
-  pull_request_target:
-   types: [closed, reopened]
+  pull_request:
+   types: [opened, closed, reopened]
    branches:
       - main
+      - feature/test-1
 jobs:
   Pull_request_test:
     runs-on: ubuntu-latest
